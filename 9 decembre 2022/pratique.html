@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style..css">
+    <title>Document</title>
+</head>
+<body>
+    <main>
+      <section><h1>Partie1</h1></section>
+      <section><h1>Partie2</h1></section>
+      <section><h1>Partie3</h1></section>
+    </main>
+    <script>
+ const container = document.querySelector('main');
+ container.addEventListener('wheel',(evt)=>{
+  evt.preventDefault();  
+  container.scrollLeft += evt.deltaY;})    
+    </script>
+</body>
+</html>
