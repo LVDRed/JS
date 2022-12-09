@@ -1,0 +1,24 @@
+main {
+    overflow-x: hidden; /*or overflow-x:scroll */
+    display: flex;
+  }
+  h1 {
+    margin: 0;
+  }
+  section {
+    min-width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 4ch;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  }
+  section:nth-child(even) {
+    background-color: turquoise;
+    color: black;
+  }
+  section:last-child{
+    background-color: brown;
+    color: white;
+  }
